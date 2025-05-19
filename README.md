@@ -34,7 +34,7 @@ python encryptor.py --encrypt --input <Ordnerpfad> --output <Zieldatei> --passwo
 
 Beispiel:
 
-python encryptor.py --encrypt --input geheim/ --output geheim.enc --password meinpasswort
+python encryptor.py --encrypt --input geheim --output geheim.enc --password meinpasswort
 
 Datei entschlüsseln:
 
@@ -42,7 +42,7 @@ python encryptor.py --decrypt --input <verschlüsselte Datei> --output <Zielordn
 
 Beispiel:
 
-python encryptor.py --decrypt --input geheim.enc --output wiederhergestellt/ --password meinpasswort
+python encryptor.py --decrypt --input geheim.enc --output wiederhergestellt --password meinpasswort
 
 Sicherheitshinweise:
 
